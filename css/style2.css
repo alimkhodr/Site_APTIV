@@ -1,0 +1,132 @@
+﻿* {
+    padding: 0;
+    font-family: 'Century Gothic', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+body{  
+    background: rgb(0,0,0);
+    background: linear-gradient(35deg, rgba(0,0,0,1) 0%, rgba(32,32,37,1) 55%, rgba(16,25,25,1) 100%); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{    
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    margin-top: 110px;        
+}
+
+.card{    
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    border-radius: 0px 40px 0px 40px;
+    height: 300px;
+    width: 250px;
+    box-shadow: 7px 7px 12px 5px rgba(0,0,0, 0.7);
+}
+
+.card h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+h1{
+    margin-top: 100px;
+    font-size: 100px;
+    color: white;
+    text-align: center;    
+}
+
+.title-sgm p{
+    text-align: center;    
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #ff5e05;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+    color: white;
+    text-align: center;
+}
+
+.label-float input:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0 30px black inset !important;
+    -webkit-text-fill-color: white !important;
+}
+
+.label-float input:focus{
+    border-bottom: 2px solid #242424;
+    text-align: left;
+}
+
+.label-float label{
+    color: #ff5e05;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus + label{
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.button-login{
+    background-color: transparent;
+    border-color: #ff5e05 !important;
+    border-radius: 50px;
+    color: white;
+    transition: 0.3s;
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+}
+
+.button-login:hover{
+    background-color: #ff5e05 !important;
+    color: black;
+}
+
+.logo-aptiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.error-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
